@@ -69,7 +69,7 @@ const PriceOptions = () => {
         ]
 
     return (
-        <div>
+        <div className="mb-16">
                 <h2 className="text-5xl">Best prices in the down</h2>
                 <div className="grid gap-5 md:grid-cols-2 lg:grid-cols-3">
                 {
