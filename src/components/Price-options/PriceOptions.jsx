@@ -71,7 +71,7 @@ const PriceOptions = () => {
     return (
         <div>
                 <h2 className="text-5xl">Best prices in the down</h2>
-                <div className="grid gap-5 md:grid-cols-3">
+                <div className="grid gap-5 md:grid-cols-2 lg:grid-cols-3">
                 {
                     priceOptions.map(option => <PriceOption key={option.id} option={option}></PriceOption>)
                 }
